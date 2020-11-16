@@ -77,7 +77,6 @@ In the above example, the target will not be achieved, even by equipping all the
 public class MockVita2 {
     public static void main(String[] args) {
     // 	String[] myArgs = args[0].split(" ");  // change to \n
-        String[] myArgs = args;
         int numRooms = Integer.parseInt(args[0]); System.out.println("numRooms: "+numRooms);
         int tvPrice = Integer.parseInt(args[1]); System.out.println("tvPrice: "+tvPrice);
         int notvPrice = Integer.parseInt(args[2]); System.out.println("notvPrice: "+notvPrice);
